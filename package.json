@@ -1,7 +1,7 @@
 {
   "name": "image-processor",
   "version": "1.0.0",
-  "description": "",
+  "description": "To run the project you must first install graphicsmagick.\r On Mac use the homebrew package manager.\r ```\r brew install graphicsmagick\r ```\r On Windows use the choclatey package manager.\r ```\r choco install graphicsmagick\r ```\r Install the dependencies\r ```\r npm install\r ```\r Run the unit tests\r ```\r npm run test\r ```\r Run an individual test\r ```\r npm run test:module-3\r ```",
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha ./test/**/*test.js",
@@ -32,5 +32,17 @@
     "express": "^4.17.1",
     "gm": "^1.9.0",
     "multer": "^1.4.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcjones88/node-express-image-processing-server.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Marcjones88/node-express-image-processing-server/issues"
+  },
+  "homepage": "https://github.com/Marcjones88/node-express-image-processing-server#readme"
 }
